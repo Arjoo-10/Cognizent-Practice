@@ -16,6 +16,7 @@ public class MyServiceTest {
                 new MyService(mockApi);
 
         String result =
+        
                 service.fetchData();
 
         assertEquals(
